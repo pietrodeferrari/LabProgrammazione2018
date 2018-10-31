@@ -1,10 +1,20 @@
+/*
+Operazioni numeriche
+
+Effettua delle operazioni tra due numeri interi inseriti da tastiera.
+Le operazioni sono:
+- individuazione del minimo e del massimo
+- somma, sottrazione, prodotto e divisione
+- elevamento a potenza
+- media
+*/
 package main
 
 import "fmt"
 
 func main() {
 
-	var x,y int
+	var x, y int
 
 	fmt.Println("Inserisci due numeri interi: ")
 	fmt.Scan(&x, &y)
@@ -23,16 +33,15 @@ func main() {
 	fmt.Println("Minore:", min)
 
 	fmt.Println("Somma:", x+y)
-	fmt.Println("Differenza:", max - min)
+	fmt.Println("Differenza:", max-min)
 	fmt.Println("Prodotto:", x*y)
 	fmt.Println("Divisione:", x/y)
 
 	potenza := 1
-	for i:=0; i<y; i++ {
+	for i := 0; i < y; i++ {
 		potenza *= x
 	}
 	fmt.Println("Potenza:", potenza)
 
 	fmt.Println("Valore medio:", (x+y)/2)
 }
-

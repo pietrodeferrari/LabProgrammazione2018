@@ -1,3 +1,8 @@
+/*
+Test maggiore e minore
+
+Confronta il valore di due numeri inseriti da tastiera
+*/
 package main
 
 import "fmt"

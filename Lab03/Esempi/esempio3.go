@@ -1,3 +1,6 @@
+/*
+Trova e correggi gli errori
+ */
 package main
 
 import "fmt"

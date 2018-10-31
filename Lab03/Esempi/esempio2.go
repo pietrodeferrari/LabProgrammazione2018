@@ -1,3 +1,6 @@
+/*
+Cosa stampa questo programma?
+*/
 package main
 
 import "fmt"

@@ -6,8 +6,10 @@ import "fmt"
 
 func main() {
 	var daindovinare, x int = 10, 0
+
 	fmt.Println("Inserisci un tentativo:")
 	fmt.Scanln(&x)
+
 	if x == daindovinare {
 		fmt.Println("Indovinato")
 	} else if x < daindovinare {
