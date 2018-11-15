@@ -19,8 +19,8 @@ func main() {
 	fmt.Print("Inserisci un numero: ")
 	fmt.Scan(&n)
 
-	for i := 1; i < n {
-		fmt.Print(i)
+	for i := 1; i < n { // for i := 1; i <= n ; {
+		fmt.Print(i) // fmt.Print(i, " ")
 		i++
 	}
 

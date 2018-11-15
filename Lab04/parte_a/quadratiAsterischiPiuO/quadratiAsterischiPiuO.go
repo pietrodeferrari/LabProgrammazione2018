@@ -17,7 +17,11 @@ func main() {
 
 	for i := 0; i < numero; i++ {
 		for j := 0; j < numero; j++ {
-			switch i%3 {
+
+			// Essendoci 3 possibili casi (*, + e o)
+			// basta controllare il resto della divisione tra l'indice e 3
+			// per sapere in quale caso siamo
+			switch i % 3 {
 			case 0:
 				fmt.Print("* ")
 			case 1:
